@@ -65,6 +65,10 @@ img {
     background-color: hsla(0, 0%, 100%, 0);
 }
 
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+  }
+
 .indent-block {
     margin-left: 50px; 
   }
