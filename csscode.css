@@ -72,3 +72,8 @@ a:hover {
 .indent-block {
     margin-left: 50px; 
   }
+
+  table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    width: 25%
+  }
