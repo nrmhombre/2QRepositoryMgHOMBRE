@@ -66,8 +66,7 @@ img {
 }
 
 a:hover {
-    text-decoration: underline; /* Adds underline on hover */
-  }
+    text-decoration: underline; }
 
 .indent-block {
     margin-left: 50px; 
@@ -76,4 +75,27 @@ a:hover {
   table, th, td {
     border: 1px solid rgb(255, 255, 255);
     width: 25%
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
   }
